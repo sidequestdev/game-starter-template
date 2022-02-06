@@ -13,6 +13,7 @@
 }
 
 canvas {
+  image-rendering: pixelated;
   background: #000000;
   margin: auto;
   padding: 0;
