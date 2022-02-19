@@ -1,3 +1,4 @@
+import { describe, it, expect } from "vitest";
 import { sum } from "#/lib/math";
 
 describe("math", () => {
