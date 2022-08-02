@@ -3,9 +3,6 @@ if (canvas === null) {
   throw new Error("Could not find canvas element");
 }
 
-canvas.style.width = "640px";
-canvas.style.height = "480px";
-
 const context = canvas.getContext("2d");
 
 if (context === null) {
